@@ -18,6 +18,7 @@ pip install -U pip
 #git clone git@github.com:Red-Hat-AI-Innovation-Team/sdg_hub.git
 git clone git@github.com:mtake/sdg_hub.git
 (cd sdg_hub; pip install -e .)
+(cd sdg_hub; pip install transformers)
 ```
 
 ### Configure environments for RITS, and DMF
