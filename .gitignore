@@ -1,0 +1,8 @@
+*~
+/sdg_hub*
+.python-version
+*.log
+tmp/
+.env*
+.DS_Store
+nohup.out*
