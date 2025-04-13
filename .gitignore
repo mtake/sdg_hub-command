@@ -6,3 +6,4 @@ tmp/
 .env*
 .DS_Store
 nohup.out*
+*~
