@@ -18,7 +18,8 @@ pip install -U pip
 #git clone git@github.com:Red-Hat-AI-Innovation-Team/sdg_hub.git
 git clone git@github.com:mtake/sdg_hub.git
 (cd sdg_hub; pip install -e .)
-(cd sdg_hub; pip install transformers)
+(cd sdg_hub; pip install transformers)  # for AutoTokenizer
+(cd sdg_hub; pip install protobuf sentencepiece)  # for Mixtral-8x22B-Instruct-v0.1
 ```
 
 ### Configure environments for RITS, and DMF
