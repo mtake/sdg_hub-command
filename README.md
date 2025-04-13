@@ -22,7 +22,7 @@ git clone git@github.com:mtake/sdg_hub.git
 (cd sdg_hub; pip install protobuf sentencepiece)  # for Mixtral-8x22B-Instruct-v0.1
 ```
 
-### Configure environments for RITS, and DMF
+### Configure environments for RITS
 ```bash
 # for RITS (request API key at https://rits.fmaas.res.ibm.com/)
 (cd sdg_hub; echo "RITS_API_KEY=<your_api_key>" >> fms_dgt/.env)
